@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: JukuTekAI
+  site: 'https://jukutekai.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: JukuTekAI
+    template: '%s — JukuTekAI'
+  description: "\U0001F680 JukutekAI, con base en América Latina y proyección internacional, se dedica primordialmente a la programación informática, ofreciendo servicios integrales que incluyen consultorías, análisis, resolución de problemas, documentación, soporte, mantenimiento y asesoramiento personalizado en software."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: JukuTekAI
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: es
   textDirection: ltr
 
 apps:

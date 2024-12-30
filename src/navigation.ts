@@ -2,28 +2,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
-    },
-    {
+    /*{
       text: 'Pages',
       links: [
         {
@@ -112,62 +91,65 @@ export const headerData = {
     },
     {
       text: 'Widgets',
-      href: '#',
+      href: '#',  
+    },*/
+    {
+      text: 'Servicios',
+      href: '#features',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Producto',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Características', href: '#' },
+        // { text: 'Seguridad', href: '#' },
+        // { text: 'Equipo', href: '#' },
+        { text: 'Empresa', href: '#' },
+        { text: 'Historias de clientes', href: '#' },
+        // { text: 'Precios', href: '#' },
+        // { text: 'Recursos', href: '#' },
       ],
     },
-    {
-      title: 'Platform',
+    /*{
+      title: 'Plataforma',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
+        { text: 'API de Desarrollador', href: '#' },
+        { text: 'Socios', href: '#' },
         { text: 'Atom', href: '#' },
         { text: 'Electron', href: '#' },
         { text: 'AstroWind Desktop', href: '#' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Soporte',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Documentos', href: '#' },
+        { text: 'Foro Comunitario', href: '#' },
+        { text: 'Servicios Profesionales', href: '#' },
+        { text: 'Habilidades', href: '#' },
+        { text: 'Estado', href: '#' },
       ],
     },
     {
-      title: 'Company',
+      title: 'Compañía',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'Acerca de', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Carreras', href: '#' },
+        { text: 'Prensa', href: '#' },
+        { text: 'Inclusión', href: '#' },
+        { text: 'Impacto Social', href: '#' },
+        { text: 'Tienda', href: '#' },
       ],
-    },
+    },*/
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Términos', href: getPermalink('/terms') },
+    { text: 'Política de Privacidad', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
@@ -177,7 +159,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
