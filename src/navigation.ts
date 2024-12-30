@@ -97,13 +97,41 @@ export const headerData = {
       text: 'Servicios',
       href: '#features',
     },
+    {
+      text: 'Productos',
+      href: '#products',
+    },
   ],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Producto',
+      title: 'Sistema de Auditoria',
+      links: [
+        { text: 'Características', href: '#' },
+        // { text: 'Seguridad', href: '#' },
+        // { text: 'Equipo', href: '#' },
+        { text: 'Empresa', href: '#' },
+        { text: 'Historias de clientes', href: '#' },
+        // { text: 'Precios', href: '#' },
+        // { text: 'Recursos', href: '#' },
+      ],
+    },
+    {
+      title: 'Sistema de Tareas',
+      links: [
+        { text: 'Características', href: '#' },
+        // { text: 'Seguridad', href: '#' },
+        // { text: 'Equipo', href: '#' },
+        { text: 'Empresa', href: '#' },
+        { text: 'Historias de clientes', href: '#' },
+        // { text: 'Precios', href: '#' },
+        // { text: 'Recursos', href: '#' },
+      ],
+    },
+    {
+      title: 'Sistema de Hojas de Ruta',
       links: [
         { text: 'Características', href: '#' },
         // { text: 'Seguridad', href: '#' },
