@@ -101,6 +101,10 @@ export const headerData = {
       text: 'Productos',
       href: '#products',
     },
+    {
+      text: 'Contacto',
+      href: '#contact',
+    },
   ],
 };
 
